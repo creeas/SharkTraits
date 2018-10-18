@@ -7,7 +7,7 @@ The Shark Traits Database is an open source research initiative that aims to mak
 
 ***
 
-## 1 Mission
+## Mission
 
 - Assemble disparate information on life history traits of sharks, rays, and chimaeras
 - Provide unrestricted, open-source and easy access to shark trait data
@@ -21,7 +21,7 @@ The Shark Traits Database is an open source research initiative that aims to mak
 
 ***
 
-## 2 Governance
+## Governance
 
 #### Administrator
 
@@ -31,7 +31,7 @@ Contact the Administrators for any information about the database.
 
 ***
 
-## 3 Trait Classes and Traits
+## Trait Classes and Traits
 
 The database was designed to contain `population-level` characteristic measurements, which are trait estimates of a species at a given location. These traits are grouped into six use-classes: 
 
@@ -116,6 +116,7 @@ Directly from growth curves  |
 Observational                |
 Logistic                     |
 
+[Trait Classes](#trait-classes-and-traits)
 
 
 ### Age
@@ -159,7 +160,7 @@ Directly from growth curves  |
 Observational                |
 Logistic                     |
 
-
+[Trait Classes](#trait-classes-and-traits)
 
 ### Growth
 
@@ -214,6 +215,8 @@ Fabens                 |
 Francis                |
 Other                  |
 
+[Trait Classes](#trait-classes-and-traits)
+
 
 ### Reproduction
 
@@ -257,7 +260,7 @@ Modeled                   | Estmimated from model output (Model must be specifie
 Proportion Gravid Females | 
 Macroscopic observation   | Observation through macroscopic dissection or observation of free swimming individuals
 
-
+[Trait Classes](#trait-classes-and-traits)
 
 ### Demography
 
@@ -268,7 +271,7 @@ Natural mortality          | *M*
 Total mortality            | *Z*  
 Fishing mortality          | *F*  
 r<sub>max</sub>            | Maximum intrinsic rate of population increase
-&#955;                  | Population growth rate 
+$\lambda$                  | Population growth rate 
 
 
 Standards     | Description
@@ -281,10 +284,11 @@ Method        | Description
 Empirical     | Estimated directly from abundance/catch data (e.g. stock assessments, catch curves)
 Derived       | Estimated indirectly from life history traits (e.g. Hoenig 1983, Chen and Watanabe 1983 mortality estimators)
 
+[Trait Classes](#trait-classes-and-traits)
 
 ### Relationships
 
-The Relationships Trait Class is a somewhat "catch-all" category that encompasses any time of conversion equations between different types of data, such as length to length conversions (e.g. fork length to total length), and length to weight conversions. The parameters *a* and *b* are the most commonly used ones and represent the coefficients on the typical conversion equations of the form ![basic equation](https://latex.codecogs.com/gif.latex?y%20%3D%20a*x%5Eb). The parameters *c* and *d* will probably be seldom used, but are presented in case a conversion equation has more than two coefficients.
+The Relationships Trait Class is a somewhat "catch-all" category that encompasses any time of conversion equations between different types of data, such as length to length conversions (e.g. fork length to total length), and length to weight conversions. The parameters *a* and *b* are the most commonly used ones and represent the coefficients on the typical conversion equations of the form $y = a*x^b$. The parameters *c* and *d* will probably be seldom used, but are presented in case a conversion equation has more than two coefficients.
 
 
 Trait                      | Description
@@ -305,7 +309,9 @@ Model         | Description
 Length-Length | Length to length conversion
 Length-Weight | Length to weight conversion
 
-## 4 Data submission
+[Trait Classes](#trait-classes-and-traits)
+
+## Data submission
 
 > The Shark Traits Database is a research tool, not a meta-data catalog.
 
@@ -366,7 +372,7 @@ The first six required columns are associated with the observation.
 
 `access` is a boolean value indicating if the observation should be accessible (0 denotes private and 1 denotes public). In the example below, the data are public.
 
-`user_id` is the unique ID (integer) of the person entering the data. 
+`user_id` is the unique ID (name or integer) of the person entering the data. 
 
 `species_name` and/or  `species_id` is the unique name or ID of the species of which the observation was taken. IDs occur in grey to the left of [species](/species) or at the top of a given species' observation page.
 
@@ -381,9 +387,9 @@ The first six required columns are associated with the observation.
 
 The remaining columns are associated with measurement-level data. All measurements corresponding to the same observation should have exactly the same observation-level data. 
 
-> **Warning** All measurements corresponding to the same observation should have exactly the same observation-level data. Use copy and paste to avoid making errors.
+> **Warning** All measurements corresponding to the same observation should have exactly the same observation-level data. Use copy and paste or fill down to avoid making errors.
 
-`trait_name` and/or `trait_id` is the unique name or ID (integer) of the species-level characteristic that was measured. Trait IDs occur in grey to the left of [traits](/traits) or at the top of a given trait's observations page.
+`trait_name` and/or `trait_id` is the unique name or ID (integer) of the species-level characteristic that was measured. 
 
 `standard_name` is the unique ID of the standard (measurement unit) that was used to measure the trait. 
 
@@ -430,7 +436,7 @@ Optional fields include:
 
 #### Back-end imports
 
-If your data is well-managed, you can ask a [database programmer](#database-programmers) to upload it for you. The data will be associated with your name and made private. You are required to make the data public yourself (if desired).
+If your data is well-managed, you can ask a [database programmer](mailto:sharktraits@gmail.com) to upload it for you. The data will be associated with your name and made private. You are required to make the data public yourself (if desired).
 
 #### Submitting data from papers
 
@@ -463,7 +469,4 @@ Basic error checking will ensure data submissions fit into the database. Error c
 *[Top](#top)*
 
 ***
-
-
-
 
