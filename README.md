@@ -271,7 +271,7 @@ Natural mortality          | *M*
 Total mortality            | *Z*  
 Fishing mortality          | *F*  
 r<sub>max</sub>            | Maximum intrinsic rate of population increase
-$\lambda$                  | Population growth rate 
+&#955;                  | Population growth rate 
 
 
 Standards     | Description
@@ -288,7 +288,7 @@ Derived       | Estimated indirectly from life history traits (e.g. Hoenig 1983,
 
 ### Relationships
 
-The Relationships Trait Class is a somewhat "catch-all" category that encompasses any time of conversion equations between different types of data, such as length to length conversions (e.g. fork length to total length), and length to weight conversions. The parameters *a* and *b* are the most commonly used ones and represent the coefficients on the typical conversion equations of the form $y = a*x^b$. The parameters *c* and *d* will probably be seldom used, but are presented in case a conversion equation has more than two coefficients.
+The Relationships Trait Class is a somewhat "catch-all" category that encompasses any time of conversion equations between different types of data, such as length to length conversions (e.g. fork length to total length), and length to weight conversions. The parameters *a* and *b* are the most commonly used ones and represent the coefficients on the typical conversion equations of the form https://latex.codecogs.com/gif.latex?y%20%3D%20a*x%5Eb. The parameters *c* and *d* will probably be seldom used, but are presented in case a conversion equation has more than two coefficients.
 
 
 Trait                      | Description
