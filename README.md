@@ -50,15 +50,15 @@ Observations bind related trait measurements of the same population. For example
 
   - Contributor
   - Access (public or private)
-  - Species\*
-  - Location
-  - Resource\+
+  - Species<sup>1</sup>
+  - Location<sup>2</sup>
+  - Resource<sup>3</sup>
 
-\*All observations must be associated with a valid species name. We are using the taxonomy of [Stein and Mull et al 2018](http://vertlife.org/sharktree/taxonomy/). Note that this taxonomy does not currently include all the taxonomic nomenclatrual revisions in [Naylor et al 2016](https://www.researchgate.net/publication/311043124_The_Rays_of_the_World_project_-_an_explanation_of_nomenclatural_decisions). The list of valid species names is built in to the spreadsheet template and can be accessed as a dropdown menu. First select the appropriate `species_superorder` (Chimaeriformes, Batoidea, Squalimoroh Sharks, or Galeomorph Sharks) and a reduced taxa set to select from will be provided in the `species_name` column.
+<sup>1</sup>All observations must be associated with a valid species name. We are using the taxonomy of [Stein and Mull et al 2018](http://vertlife.org/sharktree/taxonomy/). Note that this taxonomy does not currently include all the taxonomic nomenclatrual revisions in [Naylor et al 2016](https://www.researchgate.net/publication/311043124_The_Rays_of_the_World_project_-_an_explanation_of_nomenclatural_decisions). The list of valid species names is built in to the spreadsheet template and can be accessed as a dropdown menu. First select the appropriate `species_superorder` (Chimaeriformes, Batoidea, Squalimoroh Sharks, or Galeomorph Sharks) and a reduced taxa set to select from will be provided in the `species_name` column.
 
-Location information can be entered in several formats/columns: (1) `marine_province` is restricted to the desingated [marine longhurst provinces](http://www.marineregions.org/gazetteer.php?p=image&pic=64934), (2) `location_name` is for general locations provided in the study methods (e.g. Southern Calfifornia Bight, Northern Gulf of Mexico), and (3) `lat` and `long` coordinates if provided.
+<sup>2</sup>Location information can be entered in several formats/columns: (1) `marine_province` is restricted to the desingated [marine longhurst provinces](http://www.marineregions.org/gazetteer.php?p=image&pic=64934), (2) `location_name` is for general locations provided in the study methods (e.g. Southern Calfifornia Bight, Northern Gulf of Mexico), and (3) `lat` and `long` coordinates if provided.
 
-\+Resource can be left blank for unpublished data, but data must be kept private. The resource ID should be taken from the unique ID found in the [references database](https://sharktraits-refs.shinyapps.io/shark-resources/)
+<sup>3</sup>Resource can be left blank for unpublished data, but data must be kept private. The resource ID should be taken from the unique ID found in the [references database](https://sharktraits-refs.shinyapps.io/shark-resources/). This is a shiny database that contains all materials compiled on [Shark-Refences](https://shark-references.com/).
 
 `Measurement-level` data include the sex, trait, value, standard (unit), methodology, estimates of precision (if applicable), and model used. When entering or importing trait data, the following is minimally required:
 
