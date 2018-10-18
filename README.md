@@ -268,7 +268,7 @@ Natural mortality          | *M*
 Total mortality            | *Z*  
 Fishing mortality          | *F*  
 r<sub>max</sub>            | Maximum intrinsic rate of population increase
-$#955;                  | Population growth rate 
+&#955;                  | Population growth rate 
 
 
 Standards     | Description
