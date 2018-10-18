@@ -58,7 +58,7 @@ Observations bind related trait measurements of the same population. For example
 
 <sup>2</sup>Location information can be entered in several formats/columns: (1) `marine_province` is restricted to the desingated [marine longhurst provinces](http://www.marineregions.org/gazetteer.php?p=image&pic=64934), (2) `location_name` is for general locations provided in the study methods (e.g. Southern Calfifornia Bight, Northern Gulf of Mexico), and (3) `lat` and `long` coordinates if provided.
 
-<sup>3</sup>Resource can be left blank for unpublished data, but data must be kept private. The resource ID should be taken from the unique ID found in the [references database](https://sharktraits-refs.shinyapps.io/shark-resources/). This is a shiny database that contains all materials compiled on [Shark-Refences](https://shark-references.com/).
+<sup>3</sup> The resource ID should be taken from the unique ID found in the [references database](https://sharktraits-refs.shinyapps.io/shark-resources/). This is a shiny database that contains all materials compiled on [Shark-Refences](https://shark-references.com/).You can filter the reference databse by year and/or search for author, keyword, species, journal, etc. Resource can be left blank for unpublished data, but data must be kept private.
 
 `Measurement-level` data include the sex, trait, value, standard (unit), methodology, estimates of precision (if applicable), and model used. When entering or importing trait data, the following is minimally required:
 
